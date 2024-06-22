@@ -205,15 +205,15 @@ Notes, recomended to download pretrain from Swin transformer official website an
 $ cd DiffusionDepth/src
 # An example command for KITTI dataset training
 $ ppython main.py --dir_data datta_path --data_name KITTIDC --split_json ../data_json/kitti_dp.json \
-     --patch_height 352 --patch_width 906 --gpus 0,1,2,3 --loss 1.0*L1+1.0*L2+1.0*DDIM --epochs 30 \
-     --batch_size 8 --max_depth 88.0 --save NAME_TO_SAVE \
+     --patch_height 1352 --patch_width 1906 --gpus 0,1,2,3 --loss 1.0*L1+1.0*L2+1.0*DDIM --epochs 30 \
+     --batch_size 18 --max_depth 188.0 --save NAME_TO_SAVE \
      --model_name Diffusion_DCbase_ --backbone_module swin --backbone_name swin_large_naive_l4w722422k --head_specify DDIMDepthEstimate_Swin_ADDHAHI 
 ```
 
 A fast verification with res50 backbone.
 ```bash
 $ python main.py --dir_data datta_path --data_name KITTIDC --split_json ../data_json/kitti_dp.json \
-     --patch_height 352 --patch_width 706 --gpus 4,5,6,7 --loss 1.0*L1+1.0*L2+1.0*DDIM --epochs 30 \
+     --patch_height 1352 --patch_width 1706 --gpus 4,5,6,7 --loss 1.0*L1+1.0*L2+1.0*DDIM --epochs 30 \
      --batch_size 4 --max_depth 88.0 --num_sample 0 --save NAME_TO_SAVE \
      --model_name Diffusion_DCbase_ --backbone_module mmbev_resnet --backbone_name mmbev_res50 --head_specify DDIMDepthEstimate_Res
 ```
@@ -235,7 +235,7 @@ $ tensorboard --logdir=. --bind_all
 The tensorboard visualization includes metric curves and depth map visualization as shown below.
 
 
-<img src="images/trainingcurves.png" width = "450" height = "200" alt="图片名称" align=center /><img src="images/visualization.png" width = "330" height = "" alt="图片名称" align=center />
+<img src="images/trainingcurves.png" width = "1450" height = "1200" alt="图片名称" align=center /><img src="images/visualization.png" width = "1330" height = "" alt="图片名称" align=center />
 
 
 
