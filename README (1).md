@@ -127,15 +127,15 @@ After that, you will get a data structure as follows:
 nyudepthv2
 ├── train
 │    ├── basement_0001a
-│    │    ├── 00001.h5
+│    │    ├── 00002.h5
 │    │    └── ...
 │    ├── basement_0001b
-│    │    ├── 00001.h5
+│    │    ├── 00002.h5
 │    │    └── ...
 │    └── ...
 └── val
     └── official
-        ├── 00001.h5
+        ├── 00002.h5
         └── ...
 ```
 
