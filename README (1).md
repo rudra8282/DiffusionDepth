@@ -24,7 +24,7 @@ ______________________________________________________________________
 <br>
 <img src="images/052.gif" width = "800" height = "200" alt="图片名称" align=center />
 
-<img src="images/0196.gif" width = "200" height = "" alt="图片名称" align=center /><img src="images/0539.gif" width = "200" height = "" alt="图片名称" align=center /><img src="images/1019.gif" width = "200" height = "" alt="图片名称" align=center /><img src="images/000.gif" width = "200" height = "" alt="图片名称" align=center />
+
 
 
 </div>
