@@ -117,7 +117,7 @@ portalocker==2.7.0
 prettytable==3.6.0
 prometheus-client==0.15.0
 prompt-toolkit==3.0.36
-protobuf==3.20.3
+protobuf==4.25.8
 psutil==5.9.4
 ptyprocess==0.7.0
 pyasn1==0.4.8
@@ -174,7 +174,7 @@ traitlets==5.8.1
 trimesh==2.35.39
 typed-ast==1.5.4
 uri-template==1.2.0
-urllib3==1.26.14
+urllib3==2.5.0
 wcwidth==0.2.5
 webcolors==1.12
 webencodings==0.5.1
