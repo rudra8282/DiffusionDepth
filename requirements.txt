@@ -179,7 +179,7 @@ wcwidth==0.2.5
 webcolors==1.12
 webencodings==0.5.1
 websocket-client==1.4.2
-Werkzeug==2.2.2
+Werkzeug==3.1.5
 widgetsnbextension==4.0.5
 y-py==0.5.9
 yacs==0.1.8
